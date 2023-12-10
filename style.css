@@ -1,6 +1,102 @@
-body{
-    background-color: blue
+nav {
+  background-color: transparent;
+  padding:10px;
 }
 
+body {
+  background-color:#030014
+}
 
+#title-div {
+  height: 80%;
+  width: 100%;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
+#title {
+  font-family: 'Comfortaa', cursive;
+  font-size: 800%;
+  opacity: 0;
+  
+}
+
+#title-div > button {
+  margin:auto;
+  width: 30%;
+}
+
+#bio-title {
+  font-family: 'Comfortaa', cursive;
+}
+
+#bio {
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+  justify-content: center;
+}
+
+.bio-card {
+  width: 60%;
+  margin-top: 2%;
+  padding: 15px;
+  border-radius: .25rem;
+  outline: 5px solid white;
+}
+
+.slide {
+  position: relative;
+  transform: translateX(150px);
+  opacity: 0;
+  transition: 2s all ease; 
+}
+
+.slide.active {
+  transform: translateX(0px);
+  opacity: 1;
+}
+
+#projects {
+  margin-bottom: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.proj-link {
+  color: white;
+  padding: 10px;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  
+  border-radius: .25rem;
+  outline: 5px solid white;
+  
+  margin-bottom: 30px;
+  margin-left:5px;
+  margin-right:5px;
+}
+
+.proj-link > h2 {
+  font-family: 'Comfortaa', cursive;
+  font-size: 30px;
+}
+
+.pb {
+  margin: auto;
+  width: 100%;
+}
+
+#proj-title {
+  font-family: 'Comfortaa', cursive;
+  text-align: center;
+  margin-top: 5%;
+}

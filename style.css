@@ -10,4 +10,5 @@ nav {
 .active {
   text-decoration: underline;
   text-decoration-color: #E75480;
+  text-decoration-thickness: 5px;
 }

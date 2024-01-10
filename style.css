@@ -5,10 +5,39 @@ html {
 
 nav {
   padding: 10px;
+  z-index: 10px;
 }
 
 .active {
-  text-decoration: underline;
-  text-decoration-color: #E75480;
-  text-decoration-thickness: 5px;
+  background-color: #E75480;
+  border: 0;
+  border-radius: 30px;
+}
+
+.nav-item {
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 14px;
+
+}
+
+#pink-waves {
+  position: absolute;
+  z-index:-10;
+  top: 0px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+#header >h1{
+  position:absolute;
+  top: 35%;
+  font-size: 200px;
+  
+}
+#header {
+  display: flex;
+  justify-content: center;
 }

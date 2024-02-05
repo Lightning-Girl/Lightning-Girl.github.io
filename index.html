@@ -1,101 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title> Kit Kat Dev </title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<html>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Kit Kat Dev </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
-  <link href="style.css" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <link rel="icon" href= 
-  "img/kitkat.png" 
-            type="image/x-icon"> 
-  
-</head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
-  <body>
-    <nav class="fixed-top navbar navbar-expand-lg navbar-light" >
-      <a class="navbar-brand" href="#">
-        <img src="img/kitkat.png" width="30" height="30" class="d-inline-block align-top" alt="">
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-          
-        </ul>
-      </div>
-    </nav>
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="icon" href= 
+    "img/kitkat.png" 
+              type="image/x-icon"> 
 
-    <div id = "header">
-      <img id = "pink-waves" src = "img/pink_waves.svg">
-      <h1>KitKat Dev</h1>
+
+  </head>
+
+
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light p-2">
+    <a class="navbar-brand" href="#">
+      <img src="img/kitkat.png" height="40" class="d-inline-block align-top" alt="">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+        
+      </ul>
     </div>
+  </nav>
 
-
-    <div class= "about data-mdb-animation-show-on-load='false'">
-      <h3><b>Title</b></h3>
-      <div id = "about-text">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      </div>
-    </div>
-
-    <div class= "about data-mdb-animation-show-on-load='false'">
-      <h3><b>Title</b></h3>
-      <div id = "about-text">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      </div>
-    </div>
-  
-    <!--<svg id="visual" viewBox="0 0 900 600" width="1000" height="600" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"><path d="M0 157L30 158C60 159 120 161 180 155C240 149 300 135 360 135C420 135 480 149 540 155C600 161 660 159 720 160C780 161 840 165 870 167L900 169L900 0L870 0C840 0 780 0 720 0C660 0 600 0 540 0C480 0 420 0 360 0C300 0 240 0 180 0C120 0 60 0 30 0L0 0Z" fill="#f28dab"></path><path d="M0 409L30 404C60 399 120 389 180 380C240 371 300 363 360 368C420 373 480 391 540 401C600 411 660 413 720 406C780 399 840 383 870 375L900 367L900 167L870 165C840 163 780 159 720 158C660 157 600 159 540 153C480 147 420 133 360 133C300 133 240 147 180 153C120 159 60 157 30 156L0 155Z" fill="#e75480"></path><path d="M0 601L30 601C60 601 120 601 180 601C240 601 300 601 360 601C420 601 480 601 540 601C600 601 660 601 720 601C780 601 840 601 870 601L900 601L900 365L870 373C840 381 780 397 720 404C660 411 600 409 540 399C480 389 420 371 360 366C300 361 240 369 180 378C120 387 60 397 30 402L0 407Z" fill="#ae3a5b"></path></svg>-->
-  
-    <script></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
-
-  <div class = "footer table">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm">
-          <h4>Contact</h4>
-          <a href="mailto:kitkat.dev314@gmail.com">kitkat.dev314@gmail.com</a>
-        </div>
-        <div class="col-sm">
-          <h4>Social Media</h4>
-          <p><i class="bi bi-instagram"></i> @kitkatdev <br>
-          <i class="bi bi-twitter-x"></i> @name<br>
-          <i class="bi bi-facebook"></i> @name <br>
-          <i class="bi bi-linkedin"></i>@name</p>
-        </div>
-        <div class="col-sm">
-          <h4>Links</h4>
-          <a href="index.html">Home</a><br>
-          <a href="contact.html">Contact</a><br>
-          <a href="about.html">About</a><br>
-        </div>
-      </div>
-    </div>
+  <div id = "header">
+    <!--<img id = "pink-waves" src = "pink_waves.svg">-->
+    <h1>KitKat Dev</h1>
   </div>
-  </body>
-</html>
-  </body>
+
+  <div class = "other-content">
+    <div class= "about">
+      <h3><b>About Me</b></h3>
+      <div id = "about-text">
+        <p>Welcome to KitKat Dev. I a freelance web developer with a passion for turning digital dreams into reality. My goal is to become a full-time freelancer, and I bring a collaborative and creative approach to our projects. Let's be partners in this journey, shaping the perfect website that reflects your vision. I thrive on pushing the limits of design, infusing brilliance into every project. Together, we'll navigate the exciting process of web development, ensuring the end result is exactly what you want. Looking forward to this digital adventure with you!</p>
+      </div>
+    </div>
+
+    <div class= "about data-mdb-animation-show-on-load='false'">
+      <h3><b>Exprience & Knowledge</b></h3>
+      <div id = "about-text">
+        <p>Currently pursuing a computer science degree, I have immersed myself in the dynamic world of web design and development for the past three years through online learning classes. This educational journey has equipped me with a comprehensive understanding of both front-end and back-end development, as well as proficiency in web design and mobile site development. My dedication to staying up to date on the latest technologies ensures that I bring a well-rounded and up-to-date skill set to every project. I am enthusiastic about applying this knowledge to create innovative and seamless digital experiences.</p>
+      </div>
+    </div>
+    </div>
+
+  
+  <script src="script.js"></script>
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>  
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
 
 </html>

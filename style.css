@@ -9,10 +9,6 @@ nav {
   z-index: 10px;
 }
 
-.navbar-brand {
-  padding-left: 10px;
-}
-
 .active {
   /*text-decoration: underline;
   text-decoration-color: #E75480;
@@ -20,6 +16,12 @@ nav {
   background-color: #E75480;
   border: 0;
   border-radius: 30px;
+}
+
+#ni {
+  background-color: yellow;
+  display: flex;
+  justify-content: space-around;
 }
 
 .nav-item {
@@ -40,16 +42,23 @@ nav {
 }
 
 #header >h1{
-  position:absolute;
+  position: absolute;
   top: 35%;
   font-size: 200px;
-  
+
 }
 #header {
   display: flex;
   justify-content: center;
   font-family: 'Quicksand', sans-serif;
-  font-weight: bold 700;
+  font-weight: bold;
+  background-image: url("img/pink_waves.svg");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
 }
 
 @keyframes slide-in {
@@ -114,4 +123,24 @@ nav {
   text-decoration-color: black;
   color:black;
 }
+
+nav {
+  background-color: #f28dab;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .navbar-nav{
+    padding: 20px;
+  }
+
+  #header >h1 {
+    font-size: 100px;
+  }
+  .other-content {
+    position: absolute;
+    top: 50%;
+  }
+}
+
 

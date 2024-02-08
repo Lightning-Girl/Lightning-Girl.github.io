@@ -71,7 +71,7 @@ nav {
 }
 
 .about {
-  
+
   /*animation: slide-in 2000ms;
   animation-timing-function: linear;
   animation-timeline: view();*/
@@ -92,7 +92,7 @@ nav {
 #about-text {
   border-radius: 20px;
   padding: 20px;
-  
+
   background-color: #f28dab;
 }
 
@@ -136,11 +136,17 @@ nav {
 
   #header >h1 {
     font-size: 100px;
+    text-align: center;
   }
   .other-content {
-    position: absolute;
-    top: 50%;
+    position: relative;
+  }
+
+  .about {
+    width:90%;
+  }
+
+  .footer {
+    position: relative;
   }
 }
-
-

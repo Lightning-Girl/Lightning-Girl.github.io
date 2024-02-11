@@ -89,6 +89,15 @@ h1 {
   font-weight: bold;
 }
 
+h4 {
+  text-align: center;
+}
+
+#socials-div  > p > a {
+  text-decoration: none;
+  color: black;
+}
+
 #contact-content {
   /*position: absolute;
   width: 100%;
@@ -119,12 +128,16 @@ h1 {
   text-decoration-color: #E75480;
 }
 
+
 .col-sm > a{
   text-decoration: underline;
   text-decoration-color: black;
   color:black;
 }
 
+.contact-footer > a{
+  text-decoration: none;
+}
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */

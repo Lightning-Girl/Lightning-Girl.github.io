@@ -118,10 +118,15 @@ nav {
   text-decoration-color: #E75480;
 }
 
+
 .col-sm > a{
   text-decoration: underline;
   text-decoration-color: black;
   color:black;
+}
+
+.contact-footer > a{
+  text-decoration: none;
 }
 
 nav {
